@@ -4,7 +4,7 @@
 # This class is responsible for rendering the elements
 # parsed by Vex.Flow.VexTab.
 
-class Vex.Flow.Artist
+class Vex.Flow.Artist test
   @DEBUG = false
   L = (args...) -> console?.log("(Vex.Flow.Artist)", args...) if Vex.Flow.Artist.DEBUG
 
